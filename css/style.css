@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0px 0 ;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 1em;
+    
+}
+input{
+    padding-left: 10px;
+    font-size: 18px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 2em 0 1em 0;
+}
+label{
+    font-weight: 600;
+}
+
+.caixa-cep{
+    width: 20vw;
+    height: 7vh;
+
+}
+.caixa-endereco {
+    width: 65vw;
+    height: 7vh;
+
+}
+.caixa-numero{
+    width: 15vw;
+    height: 7vh;
+    
+}
+.caixa-complemento {
+    width: 70vw;
+    height: 7vh;
+
+}
+
+.caixa-bairro {
+    width: 37vw;
+    height: 7vh;
+
+}
+
+.caixa-cidade {
+    width: 37vw;
+    height: 7vh;
+}
+
+.caixa-uf {
+    width: 7vw;
+    height: 7vh;
+}
+.barra-cima{
+    margin: 2em 0 4em 0;
+    border: solid 1px #73777B;
+}
+.barra-baixo{
+    margin: 1em 0 2em 0;
+    border: solid 1px #73777B;
+}
+
